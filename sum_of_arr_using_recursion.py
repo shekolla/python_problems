@@ -5,6 +5,7 @@
 from python_2_3_compatabilty import *
 
 def addTwoNumbers(arr):
+    # Base condition
     if (len(arr) == 1): return arr[0]
     return arr[0] + addTwoNumbers(arr[1:])
 

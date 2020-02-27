@@ -1,5 +1,5 @@
 '''
-    This file is used for backwards compatabilty
+    This file is used for backwards compatibilty
 '''
 
 from __future__ import absolute_import, division, print_function
