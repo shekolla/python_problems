@@ -2,8 +2,13 @@
     Solution for sum of arr using recursion
 '''
 
-from python_2_3_compatabilty import *
+# To import everything use '*'
+from python_2_3_compatibilty import (int, map, input)
 
+'''
+    @input an array[]
+    @returns number
+'''
 def addTwoNumbers(arr):
     # Base condition
     if (len(arr) == 1): return arr[0]
