@@ -11,7 +11,7 @@ def secondLargest(arr):
         if each > _1stHigh:
             _2ndHigh = _1stHigh
             _1stHigh = each
-        elif each > secondLargest:
+        elif each > secondLargest and each < _1stHigh:
             _2ndHigh = each
     
     return _2ndHigh
